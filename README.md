@@ -2,8 +2,8 @@
 
 Path Finder is a project that helps in visualizing certain graph algorithms like Dijkstra, BFS, etc. This visualization can aid in understanding how these algorithms work step by step.
 
+![start_animation](https://github.com/user-attachments/assets/e7bf9613-cd5a-4f52-98d2-c6f86a5bcc3f)
 
-![homeAnimation1](https://github.com/user-attachments/assets/90c3b5f3-f8e7-490b-a7db-f328be75ebf8)
 
 
 ## Features
