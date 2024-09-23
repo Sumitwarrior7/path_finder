@@ -24,9 +24,10 @@
                 <button onclick="DropDown(event)" id='speedbtntext' class='btn-speed'>speed: Fast<i style="padding-left:10px"
                         class="fa fa-caret-down"></i></button>
                 <div class="speeddropdownContent">
-                    <a onclick="changeSpeed(this)" class='speed-link' href="#">Fast</a>
                     <a onclick="changeSpeed(this)" class='speed-link' href="#">Slow</a>
-                    <a onclick="changeSpeed(this)" class='speed-link' href="#">Average</a>
+                    <a onclick="changeSpeed(this)" class='speed-link' href="#">Medium</a>
+                    <a onclick="changeSpeed(this)" class='speed-link' href="#">Fast</a>
+                    <a onclick="changeSpeed(this)" class='speed-link' href="#">Ultra Fast</a>
                 </div>
             </div>
             <div class="algodropdown">
@@ -37,6 +38,7 @@
                     <a onclick="changeAlgo(this)" class='algo-link' href="#">Best first search</a>
                     <a onclick="changeAlgo(this)" class='algo-link' href="#">Dijkstra</a>
                     <a onclick="changeAlgo(this)" class='algo-link' href="#">A *</a>
+                    <a onclick="changeAlgo(this)" class='algo-link' href="#">Depth first search</a> <!-- New DFS option -->
                 </div>
             </div>
             <div class="MazeDropDown">
@@ -75,8 +77,13 @@
     <div class="container">
         <div class="visualize">
             <button onclick="visualize()" id='btnVis' class="btn-visualize">
-                Visualize {<span id='algoName'>Algorithm</span>}
+                Visualize 
+                <span style="font-size: 23px;">{</span>
+                    <span id='algoName' style="font-size: 23px;">Algorithm</span>
+                <span style="font-size: 23px;">}</span>
             </button>
+        </button>
+        
             <div class='algo-desc'>
                 <div class="algo-desc" id='algoDesc'>
                     <b>Path Finder</b> visualizes searching algorithms and shows you the shortest path</div>
